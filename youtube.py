@@ -95,6 +95,6 @@ def print_title_and_description(json_result: 'json') -> None:
 
 
 if __name__ == '__main__':
-    search_query = input('Query: ')
+    search_query = input('Qfdsafdsafasduery: ')
     result = get_result(build_search_url(search_query, 10))
     print_title_and_description(result)
